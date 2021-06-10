@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+        background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 25%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+
+
+h1 {
+
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#name {
+    font-size: 70px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#bio {
+
+    text-align: center;
+    font-size: 42px;
+    padding:100px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    cursor: pointer;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+}
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+    
+}
+.links:hover {
+    font-size: 50px;
+    text-decoration: underline;
+}
+#videos{
+     padding-left: 1000px;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    color: cornflowerblue;
+    text-shadow: 5px 2px red;
+    
+    
+}
+.article:hover{
+    color:cadetblue;
+}
+html {
+    scroll-behavior: smooth;
+}
+#My Videos{
+
+    text-align: center;
+    font-size: 42px;
+    padding:100px;}
+#Writing{
+
+    text-align: center;
+    font-size: 42px;
+    padding:100px;}
+#Apps {
+
+    text-align: center;
+    font-size: 42px;
+    padding:100px;
+}
+.contact a {
+    text-align: center;
+    color: chocolate;
+    text-shadow: none;
+    
+}
+#Contact{
+
+    text-align: center;
+    font-size: 42px;
+    padding:100px;}
